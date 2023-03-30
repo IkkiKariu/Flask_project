@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block css_link %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chosen_tour.css') }}">
+{% endblock %}
+
+{% block title %}
+    {{c_tour_name}}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ tours[c_tour_name]['tour_name'].upper() }}</h1>
+    <div class="tour_block">
+        <div class="tour_view">
+            <div class="tour_view_head">
+                <img src="{{ url_for('static', filename=tours[c_tour_name]['img_path']) }}" alt="image" height="650px"/>
+            </div>
+            <h2>{{ tours[c_tour_name]['country'] }}</h2>
+            <p>{{ tours[c_tour_name]['description'] }}</p>
+            <h2>{{ tours[c_tour_name]['price'] }}</h2>
+            <button>Отправиться в тур!</button>
+        </div>
+    </div>
+{% endblock %}

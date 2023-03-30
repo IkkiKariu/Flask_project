@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/488932624259203533/A74DA6068F261D9C60036D3817F08B9C50302A8D/?imw=512&amp;imh=353&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true');
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text h1 {
+    color: white;
+    background-color: rgb(58, 36, 36);
+    margin: 40px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+.text p {
+    height: 100%;
+    width: 80%;
+    color: white;
+    background-color: rgb(58, 36, 36);
+    font-size: 40px;
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+.text button{
+    background-color: rgb(12, 75, 12);
+    height: 100px;
+    width: 400px;
+    margin: 60px;
+    font-size: 30px;
+    border: 5px solid rgb(12, 75, 12);
+    color: white;
+    transition: 0.15s;
+  }
+  
+.text button:hover{
+    border-color: rgb(12, 52, 12);
+    background-color: rgb(14, 66, 14);
+    color: rgb(221, 218, 218);
+    cursor:crosshair;
+  }

@@ -1,0 +1,48 @@
+body {
+    background-image: url('http://mobimg.b-cdn.net/v3/fetch/0f/0f061124a9f43aba3c1a8244df5d1009.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.tour_block{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.tour_view{
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: rgb(31, 16, 16);
+    margin: 40px;
+    box-shadow: 0 -12px 2px 1px rgba(0, 0, 0, .1);
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.tour_view h1{
+    margin: 16px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(194, 194, 194);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tour_view_head{
+    height: 60%;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+
+}
+
+
+.tour_view p {
+    margin: 15px;
+    color: white;
+}
+
